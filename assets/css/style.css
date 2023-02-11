@@ -541,6 +541,17 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio-img {
+  height: 244px;
+  width: 100%;
+}
+
+.project-skills {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
