@@ -371,8 +371,14 @@ section {
 }
 
 .about-img {
-  height: 520px;
+  height: 350px;
+  width: 275px;
   border-radius: 10px;
+}
+
+.profile-img-ctn {
+  display: flex;
+  justify-content: center;
 }
 
 /*--------------------------------------------------------------
