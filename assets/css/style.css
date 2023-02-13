@@ -381,6 +381,12 @@ section {
   justify-content: center;
 }
 
+.about-left-ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
