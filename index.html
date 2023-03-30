@@ -54,7 +54,8 @@
           <a href="https://www.linkedin.com/in/martin-yip-889a9b261/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
           <a href="https://angel.co/u/martin-yip" target="_blank" class="google-plus"><i class="fab fa-angellist"></i></a>
           <a href="./assets/Martin_Yip_Resume.pdf" target="_blank" class="google-plus"><i class="fa-regular fa-file"></i></a>
-          <a href="mailto:martinyip220@gmail.com" class="google-plus"><i class="bx bx-envelope"></i></a>
+          <!-- <a href="mailto:martinyip220@gmail.com" class="google-plus"><i class="bx bx-envelope"></i></a> -->
+          <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i></a></li>
         </div>
       </div>
 
@@ -65,7 +66,7 @@
           <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Tech Stack</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
-          <!-- <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -378,10 +379,25 @@
     <section id="contact" class="contact">
       <div class="container">
 
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
         <div class="contact-thankyou">
           <h3 class="contact-title">Thank You</h3>
           <p>Thank you for exploring my portfolio and for considering me as a potential candidate. I appreciate the opportunity to showcase my skills and achievements and I am eager to connect with you. If my experience and passion align with your company's goals, I would love to discuss further how I can contribute to your team. Please feel free to reach out to me through the social links provided below, I look forward to hearing from you soon.</p>
         </div>
+
+        <form class="contact-form" action="https://formspree.io/f/xayzpodp" method="POST">
+          <h3 class="contact-title">Contact Form</h3>
+          <div>
+          <input type="text" name="first" class="contact-name" placeholder="First Name" autocomplete="off" required>
+          <input type="text" name="last" class="contact-name" placeholder="Last Name" autocomplete="off" required>
+        </div>
+          <input type="email" name="email" class="contact-email" placeholder="Email Address" autocomplete="off" required>
+          <textarea rows="5" cols="60" name="message" placeholder="Enter message" autocomplete="off" required></textarea>
+          <button type="submit" class="contact-btn">Send Message</button>
+        </form>
 
         <div class="row" data-aos="fade-in">
 
